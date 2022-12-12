@@ -159,50 +159,12 @@ def aggregate_all(main_link, number_of_categories: int):
 
             list_for_csv.append(short_list)
 
-    # print(list_for_csv)
-    # weird_literal = 'þ'
-    # weird_name = '\N{LATIN SMALL LETTER THORN}'
-    # weird_char = '\xfe'  # hex representation
-      # True
-    # new_data = [[sample[0], sample[1],sample[2].replace('\n', weird_char) + weird_char]
-    #             for sample in list_for_csv]
+   
     df = pd.DataFrame(list_for_csv, columns=['category', 'title','article_content'])
     df.loc[:, "article_content"] = df["article_content"].apply(lambda x: x.replace('\n', '\\n'))
     df.to_csv("df.csv", index=False ,encoding='utf-8')
-    # with open("text.csv", 'a', newline='',encoding='utf-8') as fhandle:
-    #     fieldnames = ['category', 'title', 'article']
-    #     writer = csv.writer(fhandle,delimiter=',')
-    #
-    #     writer.writerow(fieldnames)
-    #
-    #     writer.writerows(list_for_csv)
-
-
-
-
-
-
-
-
-
-    # # print(cat_with_content)
-    # for cat , cont in cat_with_content.items():
-    #     for con in cont:
-    #         print("################################################################""")
-    #         print(con)
-    #
-    # #     list_of_content=[]
-    # #     for l in liste:
-    # #         titles_and_articles=extract_titles_and_articles(l)
-    # #         list_of_content.append(titles_and_articles)
-    # #     cat_with_content[c]=list_of_content
-    # # pprint.pprint(cat_with_content)
-
-
-
-
-
-
+   
+# The last call which is customized if you want to change the number od categories
 aggregate_all("https://www.aljazeera.com",3)
 
 
