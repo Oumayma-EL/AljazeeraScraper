@@ -56,6 +56,7 @@ The only difference is in the function *extract_links_from_link_category()* whic
 <br>
 
 **Note** : You can access more articles by changing the **number_of_clicks** variable inside the same function, the bigger the number, the largest your dataset will be
-
+<br>
+**Note** : The csv files in the repository are examples of the output of the program.
 # At the end 
 #### Feel free to fork and add features to the program and enjoy seeing the brower automated and the clicks made without actually clicking!!
