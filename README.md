@@ -1,6 +1,8 @@
 # Not important section to read
 The project from the beginning to the end was an amazing adventure specially the errors (coding is not that simple)
 # This is important 
+The project works only on Aljazeera website.
+<br>
 The project has 2 files : 
 * moduleScraping.py which is based on the beautifulsoup and requests only to scrape the latest articles of the current day 
 * modulesScrapingHistoricalArticles based on beautifulsoup and selenium to scrape the historical data from the Aljazeera website whith automating the process 
