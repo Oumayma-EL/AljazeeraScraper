@@ -43,7 +43,7 @@ If everything is set up correctly, the execution must look like this :
 <br />
 <br>
 Then you can choose one category. 
-And you can customize the number of categories in the function **aggragate_all()** you can choose the number of categories, so the prompt will appear until choosing all the categories (an example for 3 as an argument for the fucntion is below)
+And you can customize the number of categories in the function **aggragate_all()** : You can choose the number of categories, so the prompt will appear until choosing all the categories (an example for 3 as an argument for the fucntion is below)
 <br/>
 <br>
 ![scraping2](https://user-images.githubusercontent.com/76720983/207117254-e795ada4-190a-447e-8532-3e732bbc1bc3.png)
