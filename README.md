@@ -59,4 +59,4 @@ The only difference is in the function *extract_links_from_link_category()* whic
 <br>
 **Note** : The csv files in the repository are examples of the output of the program.
 # At the end 
-#### Feel free to fork and add features to the program and enjoy seeing the brower automated and the clicks made without actually clicking!!
+#### Feel free to fork and add features to the program and enjoy seeing the browser automated and the clicks made without actually clicking!!
