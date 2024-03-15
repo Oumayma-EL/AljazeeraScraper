@@ -59,4 +59,9 @@ The only difference is in the function *extract_links_from_link_category()* whic
 <br>
 **Note** : The csv files in the repository are examples of the output of the program.
 # At the end 
-#### Feel free to fork and add features to the program and enjoy seeing the browser automated and the clicks made without actually clicking!!
+#### Feel free to fork and add features to the program 
+# Sample Dataset
+
+I have included a sample dataset in this repository, which was downloaded using the code provided here. You can access the dataset on Kaggle using the following link:
+[https://www.kaggle.com/datasets/oumaymael/aljazeera-news-dataset/](https://www.kaggle.com/datasets/oumaymael/aljazeera-news-dataset/)
+This dataset serves as a demonstration of the functionality of my code and can be used to replicate the results or to experiment with different analyses.
