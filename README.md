@@ -1,5 +1,3 @@
-# Not important section to read
-The project from the beginning to the end was an amazing adventure specially the errors (coding is not that simple)
 # This is important 
 The project works only on Aljazeera website.
 <br>
